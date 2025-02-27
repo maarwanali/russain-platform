@@ -11,7 +11,7 @@ function Footer() {
           <div className=" p-2">
             {/* logo */}
             <h1 className="logomd:px-1 font-bold my-2 text-2xl">RusFluency</h1>
-            <p className="mt-1">© 2024 Marwan ali,</p>
+            <p className="mt-1">© 2025 Marwan ali,</p>
             <p className="ml-1">All rights reserved </p>
           </div>
           <div className="p-2">

@@ -1,7 +1,7 @@
 import React from "react";
 
 function AddContant() {
-  return <div className="ml-64">AddContant</div>;
+  return <div className="">AddContant</div>;
 }
 
 export default AddContant;
