@@ -2,6 +2,8 @@ import React from "react";
 import map from "@/public/world-map.svg";
 import Image from "next/image";
 import { SlSocialInstagram, SlSocialFacebook } from "react-icons/sl";
+import Link from "next/link";
+import { FaTelegram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -27,10 +29,16 @@ function Footer() {
             <h2 className="my-2">FOLLOW ME</h2>
             <div className="flex gap-3 my-2 flex_center">
               <span>
-                <SlSocialInstagram size={24} />
+                <Link href={"https://www.instagram.com/nastasia.bo/"}>
+                  {" "}
+                  <SlSocialInstagram size={24} />
+                </Link>
               </span>
               <span>
-                <SlSocialFacebook size={24} />{" "}
+                <Link href={"https://web.telegram.org/a/#744098525"}>
+                  {" "}
+                  <FaTelegram size={24} />{" "}
+                </Link>
               </span>
             </div>
           </div>
